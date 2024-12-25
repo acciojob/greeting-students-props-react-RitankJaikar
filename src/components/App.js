@@ -7,7 +7,7 @@ const App = () => {
   const [name, setName] = useState("John");
 
   return (
-    <Welcome name="" />
+    <Welcome name={name} />
   )
 }
 
